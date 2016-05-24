@@ -1,359 +1,155 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE html>
-<html>
-<head>
-<title>苏三元的网站</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="安卓,android,苏三元,苏三元的网站,博客" />
-<link href="/images/branding/product/ico/googleg_lodp.ico" rel="shortcut icon" type="image/x-icon">
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<script src="js/jquery-1.11.0.min.js"></script>
-<!---- start-smoth-scrolling---->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-		</script>
+---
+layout: default
+---
 
-<!--start-smoth-scrolling-->
-<!--animated-css-->
-		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-		<script src="js/wow.min.js"></script>
-		<script>
-		 new WOW().init();
-		</script>
-<!--animated-css-->  
-</head>
-<body>
-	<!--start-banner-->
-		<div class="banner" id="home">
-			<div  id="top" class="callbacks_container">
-			     <ul class="rslides" id="slider4">
-			       <li>
-	    				<div class="banner-1">
-						</div>
-					</li>
-					 <li>
-	    				<div class="banner-2">
-						</div>
-					</li>
-			     </ul>
-			</div>
-			<div class="clearfix"> </div>
-			<div class="header">
-				<div class="logo">
-					<a href="index.html"><img src="images/logo.png" alt=""></a>
-				</div>
-				<div class="navigation">
-				 <span class="menu"></span> 
-					<ul class="navig">
-						<li><a href="index.html" class="scroll">首页</a><span>|</span></li>
-						<li><a href="#portfolio" class="scroll">文章</a><span>|</span></li>
-						<li><a href="#contact" class="scroll">关于我</a></li>
-					</ul>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="banner-bottom">
-				<ul>
-					<li><a href="#"><span class="twt"> </span></a></li>
-					<li><a href="#"><span class="t"> </span></a></li>
-					<li><a href="#"><span class="g"> </span></a></li>
-				</ul>
-			</div>
-		</div>	
-	<!-- script-for-menu -->
-		 <script>
-				$("span.menu").click(function(){
-					$(" ul.navig").slideToggle("slow" , function(){
-					});
-				});
-		 </script>
-		 <!-- script-for-menu -->
-		<!--Slider-Starts-Here-->
-				<script src="js/responsiveslides.min.js"></script>
-			 <script>
-			    // You can also use "$(window).load(function() {"
-			    $(function () {
-			      // Slideshow 4
-			      $("#slider4").responsiveSlides({
-			        auto: true,
-			        pager: false,
-			        nav: true,
-			        speed: 500,
-			        namespace: "callbacks",
-			        before: function () {
-			          $('.events').append("<li>before event fired.</li>");
-			        },
-			        after: function () {
-			          $('.events').append("<li>after event fired.</li>");
-			        }
-			      });
-			
-			    });
-			  </script>
-			<!--End-slider-script-->
-	<!--end-banner-->	
-	<!--start-free-->	 
-	<div class="free wow bounce" data-wow-delay="0.1s">
-		<div class="container">
-			<div class="free-main">
-				<h1>天道酬勤</h1>
-				<p><sup><img src="images/quote-1.png" alt=""></sup> 大多数人其实不知道自己的时间都浪费在哪个让Ta最舒服的事情上，比如我，这会儿不就写说说呢么？ <sub><img src="images/quote-2.png" alt=""></sub> </p>
-			</div>
-		</div>
-	</div>
-	<!--end-free-->	 
-	<!-- Portfolio Starts Here -->
-	<div class="portfolios entertain_box  wow fadeInUp" data-wow-delay="0.4s" id="portfolio">
-		<div class="container">
-			<div class="portfolio-top">
-			<ul id="filters" class="clearfix">
-						<li><span class="filter active" data-filter="app card icon logo web">奥特曼</span></li>
-						<li><span class="filter" data-filter="app">皮卡丘</span></li>
-						<li><span class="filter" data-filter="photo">丘比特</span></li>
-						<li><span class="filter" data-filter="card">哆啦A梦</span></li>
-					</ul>
-					<div id="portfoliolist">
-					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper">		
-							<a href="images/p-1.jpg" class="b-link-stripe b-animate-go   swipebox"  title="i love you">
-						     <img src="images/port-1.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">
-						     	<ul>
-						     		<li><img src="images/hrt.png" alt=""/></li>
-						     		<li><img src="images/srch.png" alt=""/></li>
-						     		<li><img src="images/rsh.png" alt=""/></li>
-						     	</ul>
-						     	</h2>
-						  	 </div></a>
-		                </div>
-					</div>				
-					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper">		
-							<a href="images/p-2.jpg" class="b-link-stripe b-animate-go   swipebox"  title="are you sure">
-						     <img src="images/port-2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">
-						     	<ul>
-						     		<li><img src="images/hrt.png" alt=""/></li>
-						     		<li><img src="images/srch.png" alt=""/></li>
-						     		<li><img src="images/rsh.png" alt=""/></li>
-						     	</ul>
-						     	</h2>
-						  	 </div></a>
-		               </div>
-					</div>		
-					<div class="portfolio photo mix_all" data-cat="photo" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper">		
-							<a href="images/p-3.jpg" class="b-link-stripe b-animate-go   swipebox"  title="liar">
-						     <img src="images/port-3.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">
-						     	<ul>
-						     		<li><img src="images/hrt.png" alt=""/></li>
-						     		<li><img src="images/srch.png" alt=""/></li>
-						     		<li><img src="images/rsh.png" alt=""/></li>
-						     	</ul>
-						     	</h2>
-						  	 </div></a>
-		                </div>
-					</div>				
-					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper">		
-							<a href="images/p-4.jpg" class="b-link-stripe b-animate-go   swipebox"  title="God">
-						     <img src="images/port-4.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">
-						     <ul>
-						     		<li><img src="images/hrt.png" alt=""/></li>
-						     		<li><img src="images/srch.png" alt=""/></li>
-						     		<li><img src="images/rsh.png" alt=""/></li>
-						     	</ul>
-						     	</h2>
-						  	 </div></a>
-		                </div>
-		               
-					</div>	
-					<div class="portfolio photo mix_all" data-cat="photo" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper">		
-							<a href="images/p-5.jpg" class="b-link-stripe b-animate-go   swipebox"  title="wocao">
-						     <img src="images/port-5.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">
-						     	<ul>
-						     		<li><img src="images/hrt.png" alt=""/></li>
-						     		<li><img src="images/srch.png" alt=""/></li>
-						     		<li><img src="images/rsh.png" alt=""/></li>
-						     	</ul>
-						     	</h2>
-						  	 </div></a>
-		                </div>
-		               
-					</div>			
-					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper">		
-							<a href="images/p-6.jpg" class="b-link-stripe b-animate-go  swipebox"  title="hehe">
-						     <img src="images/port-6.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">
-						     	<ul>
-						     		<li><img src="images/hrt.png" alt=""/></li>
-						     		<li><img src="images/srch.png" alt=""/></li>
-						     		<li><img src="images/rsh.png" alt=""/></li>
-						     	</ul>
-						     	</h2>
-						     	
-						  	 </div></a>
-		                </div>
-		                
-					</div>		
-		</div>
-		</div>
-	</div>
+<div class="page clearfix" index>
+    <div class="left">
+        <h1>Welcome to HyG's Blog!</h1>
+        <small>这里记录着我的前端学习之路</small>
+        <hr>
+        <ul>
+            {% for post in paginator.posts %}
+              <li>
+                <h2>
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+                <div class="label">
+                    <div class="label-card">
+                        <i class="fa fa-calendar"></i>{{ post.date | date: "%F" }}
+                    </div>
+                    <div class="label-card">
+                        {% if post.author %}<i class="fa fa-user"></i>{{ post.author }}
+                        {% endif %}
+                    </div>
+                    <div class="label-card">
+                        {% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}
+                    </div>
+
+                    <div class="label-card">
+                    {% include category.html %}
+                    </div>
+
+                    <div class="label-card">
+                    {% include tag.html %}
+                    </div>
+                </div>
+                <div class="excerpt">
+                    {{post.excerpt}}
+                </div>
+                <div class="read-all">
+                    <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>Read All</a>
+                </div>
+                <hr>
+              </li>
+            {% endfor %}
+        </ul>
+
+
+
+        <!-- Pagination links -->
+        <div class="pagination">
+          {% if paginator.previous_page %}
+            <a href="/index.html" class="previous"><i class="fa fa-angle-double-left"></i></a>
+            <a href="{{ paginator.previous_page_path }}" class="previous"><i class="fa fa-angle-left"></i></a>
+          {% else %}
+            <span class="previous disable"><i class="fa fa-angle-double-left"></i></span>
+            <span class="previous disable"><i class="fa fa-angle-left"></i></span>
+          {% endif %}
+          <span class="page_number ">{{ paginator.page }}/{{ paginator.total_pages }}</span>
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}" class="next"><i class="fa fa-angle-right"></i></a>
+            <a href="/page{{ paginator.total_pages }}" class="next"><i class="fa fa-angle-double-right"></i></a>
+          {% else %}
+            <span class="next disable"><i class="fa fa-angle-right"></i></span>
+            <span class="next disable"><i class="fa fa-angle-double-right"></i></span>
+          {% endif %}
+        </div>
+    </div>
+    <!-- <button class="anchor"><i class="fa fa-anchor"></i></button> -->
+    <div class="right">
+        <div class="wrap">
+            <div class="side">
+                <div>
+                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                    Recent Posts
+                </div>
+                <ul class="content-ul" recent>
+                    {% for post in site.posts offset: 0 limit: 10  %}
+                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <!-- Content -->
+            <div class="side ">
+                <div>
+                    <i class="fa fa-th-list"></i>
+                    Categories
+                </div>
+                <ul class="content-ul" cate>
+                    {% for category in site.categories order:ascending %}
+                    <li>
+                        <a href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}" class="categories-list-item" cate="{{ category | first }}">
+                            <span class="name">
+                                {{ category | first }}
+                            </span>
+                            <span class="badge">{{ category | last | size }}</span>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!-- 其他div框放到这里 -->
+            <div class="side">
+                <div>
+                    <i class="fa fa-tags"></i>
+                    Tags
+                </div>
+                <div class="tags-cloud">
+                    {% assign first = site.tags.first %}
+                    {% assign max = first[1].size %}
+                    {% assign min = max %}
+                    {% for tag in site.tags offset:1 %}
+                      {% if tag[1].size > max %}
+                        {% assign max = tag[1].size %}
+                      {% elsif tag[1].size < min %}
+                        {% assign min = tag[1].size %}
+                      {% endif %}
+                    {% endfor %}
+                    {% assign diff = max | minus: min %}
+
+                    {% for tag in site.tags %}
+                      {% assign temp = tag[1].size | minus: min | times: 36 | divided_by: diff %}
+                      {% assign base = temp | divided_by: 4 %}
+                      {% assign remain = temp | modulo: 4 %}
+                      {% if remain == 0 %}
+                        {% assign size = base | plus: 9 %}
+                      {% elsif remain == 1 or remain == 2 %}
+                        {% assign size = base | plus: 9 | append: '.5' %}
+                      {% else %}
+                        {% assign size = base | plus: 10 %}
+                      {% endif %}
+                      {% if remain == 0 or remain == 1 %}
+                        {% assign color = 9 | minus: base %}
+                      {% else %}
+                        {% assign color = 8 | minus: base %}
+                      {% endif %}
+                      <a href="{{ root_url }}/{{ site.tag_dir }}#{{ tag[0] }}" style="font-size: {{ size }}pt; color: #{{ color }}{{ color }}{{ color }};">{{ tag[0] }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- <div class="side">
+                <div>
+                    <i class="fa fa-external-link"></i>
+                    Links
+                </div>
+                <ul  class="content-ul">
+
+                </ul>
+            </div> -->
+        </div>
+    </div>
 </div>
-<link rel="stylesheet" href="css/swipebox.css">
-	<script src="js/jquery.swipebox.min.js"></script> 
-	    <script type="text/javascript">
-			jQuery(function($) {
-				$(".swipebox").swipebox();
-			});
-		</script>
-	<!-- Portfolio Ends Here -->
-	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-<script type="text/javascript">
-$(function () {
-	
-	var filterList = {
-	
-		init: function () {
-		
-			// MixItUp plugin
-		// http://mixitup.io
-		$('#portfoliolist').mixitup({
-			targetSelector: '.portfolio',
-			filterSelector: '.filter',
-			effects: ['fade'],
-			easing: 'snap',
-			// call the hover effect
-			onMixEnd: filterList.hoverEffect()
-		});				
-	
-	},
-	
-	hoverEffect: function () {
-	
-		// Simple parallax effect
-		$('#portfoliolist .portfolio').hover(
-			function () {
-				$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
-				$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
-			},
-			function () {
-				$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
-				$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
-			}		
-		);				
-	
-	}
-
-};
-
-// Run the show!
-	filterList.init();
-	
-});	
-</script>
-<!--Blog-Starts-Here-->
-	<div class="blog">
-		<div class="container">
-			<div class="blog-main">
-				<div class="col-md-4 blog-left">
-					<div class="blog-one wow bounceInLeft" data-wow-delay="0.4s">
-						<img src="images/blog-1.png" alt="" />
-						<h3>RESUME</h3>
-						<p>进入</p>
-					</div>
-				</div>
-				<div class="col-md-4 blog-left">
-					<div class="blog-one wow bounce" data-wow-delay="0.1s">
-						<img src="images/blog-4.png" alt="" />
-						<h3>BLOG</h3>
-						<p>欢迎来访 </p>
-					</div>
-				</div>
-				<div class="col-md-4 blog-left active">
-					<div class="blog-one wow bounceInRight" data-wow-delay="0.4s">
-						<img src="images/blog-3.png" alt="" />
-						<h3>OTHERS</h3>
-						<p>嘿嘿</p>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-		</div>
-	</div>
-<!--Blog-Ends-Here-->
-<!--Contact-Starts-Here-->
-	<div class="contact" id="contact">
-		<div class="container">
-			<div class="contact-main">
-				<div class="col-md-6 contact-left wow bounceInLeft" data-wow-delay="0.4s">
-					<h3>Contact Me</h3>
-					<p>谢谢使用！</p>
-					<p>如有问题请联系我</p>
-					<ul>
-						<li><p><a href="https://github.com/ssyandroid"> GitHub </a></p></li>
-						<li><p><a href="mailto:example@email.com"> android_ssy@126.com </a></p></li>
-						<li><p>F:<a href="#"> facebook.com</a></p></li>
-					</ul>
-				</div>
-				<div class="col-md-6 contact-left wow bounceInRight" data-wow-delay="0.4s">
-					<input type="text" value="姓名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}"/>
-					<input type="text" value="邮箱" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email address';}"/>
-					<div class="contact-textarea">
-						<textarea value="Your question" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your question';}">问题</textarea>
-					</div>
-					<div class="contact-but">
-						<input type="submit" value="提交" />
-					</div>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-		</div>
-	</div>
-<!--Contact-Ends-Here-->
-<!--Footer-Starts-Here-->
-	<div class="footer">
-		<div class="conatiner">
-			<div class="footer-text wow bounce" data-wow-delay="0.1s">
-				<p> BY <a href="http://www.susanyuan.cn/"> 苏三元</a></p>
-				<ul>
-					<li><a href="#"><span class="twt"> </span></a></li>
-					<li><a href="#"><span class="t"> </span></a></li>
-					<li><a href="#"><span class="g"> </span></a></li>
-				</ul>
-			</div>
-		</div>
-		 <script type="text/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear' 
-								 		};
-										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-									});
-								</script>
-		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-	</div>
-<!--Footer-Ends-Here-->
-</body>
-</html>
+<!-- <script src="{{ "/js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
+<!-- <script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
